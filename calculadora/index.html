@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="resultado">
+            <p id="input"></p>
+        </div>
+        <div class="calcular">
+            <div class="top-1">
+                <div class="bt-2 bt" onclick="limpar()">C</div>
+                <div class="bt-1 bt" onclick="add('/')"> /</div>
+                <div class="bt-1 bt" onclick="add('*')">X</div>
+            </div>
+            <div class="bot-1">
+                <div class="bt-1 bt" onclick="add(7)">7</div>
+                <div class="bt-1 bt" onclick="add(8)">8</div>
+                <div class="bt-1 bt" onclick="add(9)">9</div>
+                <div class="bt-1 bt" onclick="add(4)">4</div>
+                <div class="bt-1 bt" onclick="add(5)">5</div>
+                <div class="bt-1 bt" onclick="add(6)">6</div>
+                <div class="bt-1 bt" onclick="add(1)">1</div>
+                <div class="bt-1 bt" onclick="add(2)">2</div>
+                <div class="bt-1 bt" onclick="add(3)">3</div>
+            </div>
+            <div class="bot-3">
+                <div class="bt-1 bt" onclick="add('-')">-</div>
+                <div class="bt-1 bt" onclick="add('+')">+</div>
+                <div class="bt-3 bt" onclick="calcular()">=</div>
+            </div>
+            <div class="bot-2">
+                <div class="bt-2 bt" onclick="add(0)">0</div>
+                <div class="bt-1 bt" onclick="add('.')">.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
